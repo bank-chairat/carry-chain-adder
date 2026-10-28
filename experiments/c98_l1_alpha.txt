@@ -1,0 +1,5 @@
+alpha 0.25 L1 median 58.3 per-seed [53.2, 49.5, 61.0, 58.7, 58.3] max |output diff vs alpha=1| 0.00e+00
+alpha 0.5 L1 median 55.7 per-seed [51.2, 48.1, 57.9, 57.2, 55.7] max |output diff vs alpha=1| 0.00e+00
+alpha 1 L1 median 62.5 per-seed [59.4, 54.6, 66.6, 64.8, 62.5] max |output diff vs alpha=1| 0.00e+00
+alpha 2 L1 median 82.1 per-seed [81.6, 72.0, 91.6, 85.5, 82.1] max |output diff vs alpha=1| 0.00e+00
+alpha 4 L1 median 129.0 per-seed [129.0, 109.2, 145.2, 129.5, 124.3] max |output diff vs alpha=1| 0.00e+00

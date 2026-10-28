@@ -1,0 +1,17 @@
+/home/claude/carry_chain/c145_seed_unit.py:30: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  if float(sign * cc) >= 0.065: break
+35 plant_seed 23 [-0.0629, -0.0678, 0.0022] 5350
+5 plant_seed 39 [-0.0257, -0.0667, 0.0322] 5550
+37 plant_seed 26 [-0.0548, -0.0663, 0.0102] 4600
+36 plant_seed 53 [-0.0765, -0.0765, 0.0] 4300
+10 plant_seed 14 [-0.0771, -0.0771, 0.0] 4350
+25 plant_seed 3 [-0.0311, -0.0652, 0.0436] 4050
+24 plant_seed 89 [-0.0439, -0.0655, 0.0261] 5300
+35 random_nudge 23 [-0.0629, -0.0627, 0.0022] 5300
+5 random_nudge 39 [-0.0257, -0.0253, 0.0322] 5000
+37 random_nudge 26 [-0.0548, -0.0532, 0.0102] 3400
+36 random_nudge 53 [-0.0765, -0.0765, 0.0] 4300
+10 random_nudge 14 [-0.0771, -0.0771, 0.0] 4350
+25 random_nudge 3 [-0.0311, -0.0318, 0.0436] 4550
+24 random_nudge 89 [-0.0439, -0.0406, 0.0261] 4950

@@ -1,0 +1,10 @@
+(1) Spearman(share 25-500, J500) over 460 inits: 0.64; early-share (25-100) vs J500: 0.07
+(2) on the 60 with T: Spearman(share 25-500, T) -0.52; J500 vs T -0.84
+  lambda 1: 5-fold CV Spearman 0.027
+  lambda 10: 5-fold CV Spearman 0.044
+  lambda 100: 5-fold CV Spearman 0.055
+  lambda 1000: 5-fold CV Spearman 0.048
+  lambda 10000: 5-fold CV Spearman 0.047
+  lambda 100000: 5-fold CV Spearman 0.044
+(3) ridge on Gram features, lambda 100: held-out (s 400-499) Spearman with J500 -0.08; on s 0-59: Spearman(prediction, T) -0.18
+largest coefficients: a0*b0 -0.030, b4*b4 +0.030, a4*bias -0.029, a0*b7 -0.029, a7*b7 -0.028, a2*b4 -0.027, b4*b5 +0.026, a2*b5 +0.026, a3*b7 +0.026, b0*b0 -0.025, a1*b4 -0.025, a6*b1 +0.024

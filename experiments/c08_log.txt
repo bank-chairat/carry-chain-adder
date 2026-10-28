@@ -1,0 +1,11 @@
+seed=30 random acc=0.9957 min bit 0.9732 (836s)
+seed=30 stratified acc=0.9968 min bit 0.9854 (955s)
+seed=31 random acc=0.9983 min bit 0.9920 (1053s)
+seed=31 stratified acc=0.9980 min bit 0.9920 (708s)
+seed=32 random acc=0.9971 min bit 0.9782 (792s)
+seed=32 stratified acc=0.9958 min bit 0.9781 (585s)
+seed=33 random acc=0.9970 min bit 0.9859 (585s)
+seed=33 stratified acc=0.9987 min bit 0.9913 (518s)
+seed=34 random acc=0.9925 min bit 0.9754 (871s)
+seed=34 stratified acc=0.9970 min bit 0.9845 (698s)
+done

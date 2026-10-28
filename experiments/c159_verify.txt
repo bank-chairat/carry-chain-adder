@@ -1,0 +1,25 @@
+C-149 alone: quoted 400 500 400 300 400 | recomputed [400, 500, 400, 300, 400]
+C-149 conf3: quoted 400 500 500 400 400 | recomputed [400, 500, 500, 400, 400]
+C-149 joint: quoted 7,300; >20,000; 3,000; 17,900; >20,000 | recomputed [7300, -1, 3000, 17900, -1]
+C-153 block: quoted  | recomputed [1750, 1850, 350, 1250, 1300]
+C-153 centered_noise: quoted  | recomputed [2600, 2250, 350, 2150, 1650]
+C-153 frozen_mean: quoted  | recomputed [-1, -1, -1, -1, -1]
+C-153 frozen_other: quoted  | recomputed [-1, -1, -1, -1, -1]
+C-153 joint: quoted  | recomputed [-1, 3450, 500, 1950, 2050]
+C-154 alpha 0.1 T / onset medians: quoted 650 / 150 | recomputed 650 / 150
+C-154 alpha 0.3 T / onset medians: quoted 550 / 75 | recomputed 550 / 75
+C-154 alpha 0.5 T / onset medians: quoted 600 / 100 | recomputed 600 / 100
+C-154 alpha 0.7 T / onset medians: quoted 550 / 75 | recomputed 550 / 75
+C-156 alone: quoted 1,800 2,100 1,700 2,400 2,250 | recomputed [1800, 2100, 1700, 2400, 2250] median 2100
+C-156 conf3: quoted 1,850 2,000 1,750 2,400 2,200 | recomputed [1850, 2000, 1750, 2400, 2200] median 2000
+C-156 joint: quoted 2,850 2,850 2,850 3,500 3,500 | recomputed [2850, 2850, 2850, 3500, 3500] median 2850
+C-156 joint L2 R2 on S at 250: quoted 0.66-0.70 | recomputed 0.65-0.70
+C-156 joint/alone: quoted 1.36 | recomputed 1.36
+C-158 lr 0.03 alone / joint / ratio / joint L2 R2: quoted see PROGRESS | recomputed [850, 800, 800, 1050, 1050] / [1450, 1300, 1350, 1300, 1700] / 1.59 / 0.66-0.86
+C-158 lr 0.003 alone / joint / ratio / joint L2 R2: quoted see PROGRESS | recomputed [5700, 6300, 5350, 7300, 7150] / [9000, 9100, 7450, 8800, 10400] / 1.43 / 0.07-0.26
+
+Re-running the scoring scripts and comparing with the saved score files:
+c150_score.py output identical to c150_scores.txt: True
+c155_score.py output identical to c155_scores.txt: True
+c157_partA.py output identical to c157/partA.txt: True
+c157_partB.py output identical to c157/partB.txt: True

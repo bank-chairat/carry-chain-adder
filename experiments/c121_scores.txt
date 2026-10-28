@@ -1,0 +1,6 @@
+sep   none    t4 [800, 1200, 850, 1250, 900] median 900 | coh_oth_L2 0.85 coh_oth_L1 0.82 | norm oth/b4 L2 14.7 | relchange L1 1.04 L2 3.63
+sep   L3      t4 [5850, 3550, -1, -1, 4000] median 5850 | coh_oth_L2 0.84 coh_oth_L1 0.85 | norm oth/b4 L2 9.2 | relchange L1 1.27 L2 4.63
+plain joint   t4 [4350, 4400, 1000, 2250, 2550] median 2550 | coh_oth_L2 0.56 coh_oth_L1 0.31 | norm oth/b4 L2 11.1 | relchange L1 0.60 L2 1.75
+plain blockL3 t4 [550, 750, 500, 1050, -1] median 750 | coh_oth_L2 0.60 coh_oth_L1 0.44 | norm oth/b4 L2 0.9 | relchange L1 0.92 L2 2.44
+sep reproduces C-114: [True, True, True, True, True, True, True, True, True, True]
+plain joint vs C-116 joint: [(4350, 4600), (4400, 3950), (1000, 1000), (2250, 2450), (2550, 2550)]

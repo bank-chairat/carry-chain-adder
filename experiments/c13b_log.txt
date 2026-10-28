@@ -1,0 +1,6 @@
+seed=105 random acc=0.9958 min bit 0.9776 (702s)
+seed=106 random acc=0.9987 min bit 0.9952 (615s)
+seed=107 random acc=0.9967 min bit 0.9784 (393s)
+seed=108 random acc=0.9931 min bit 0.9666 (374s)
+seed=109 random acc=0.9981 min bit 0.9882 (210s)
+done

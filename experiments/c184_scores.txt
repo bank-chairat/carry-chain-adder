@@ -1,0 +1,5 @@
+single-bit with LayerNorm, medians bits 0-8: [50.0, 100.0, 100.0, 150.0, 250.0, 400.0, 700.0, 700.0, 300.0]
+joint with LayerNorm (C-172), medians: [100.0, 200.0, 250.0, 350.0, 400.0, 400.0, 400.0, 400.0, 200.0]
+joint / single: [2.0, 2.0, 2.5, 2.33, 1.6, 1.0, 0.57, 0.57, 0.67]
+(1) Spearman bits 0-7 at least 0.7: HIT (0.94)
+(2) joint at most 2 x single for every bit 0-7: MISSED

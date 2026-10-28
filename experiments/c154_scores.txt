@@ -1,0 +1,9 @@
+alpha 0.0: T [1400, 1250, 700, 1550, 1100] onset [375, 650, 75, 600, 475] D [1025, 600, 625, 950, 625] | medians T 1250 onset 475 growth 625
+alpha 0.1: T [600, 650, 450, 900, 900] onset [75, 150, 75, 200, 450] D [525, 500, 375, 700, 450] | medians T 650 onset 150 growth 500
+alpha 0.3: T [650, 550, 500, 700, 550] onset [75, 100, 50, 100, 75] D [575, 450, 450, 600, 475] | medians T 550 onset 75 growth 475
+alpha 0.5: T [950, 550, 450, 600, 650] onset [350, 100, 50, 100, 100] D [600, 450, 400, 500, 550] | medians T 600 onset 100 growth 500
+alpha 0.7: T [650, 550, 400, 600, 500] onset [100, 50, 50, 100, 75] D [550, 500, 350, 500, 425] | medians T 550 onset 75 growth 500
+alpha 1.0: T [600, 450, 600, 450, 500] onset [200, 50, 125, 100, 50] D [400, 400, 475, 350, 450] | medians T 500 onset 100 growth 400
+onset medians alpha 0..0.7: [np.float64(475.0), np.float64(150.0), np.float64(75.0), np.float64(100.0), np.float64(75.0)] non-increasing: False
+alpha 0 -> 0.7: onset factor 6.33, growth factor 1.25
+(alpha 1.0 = the independent W512 of C-131, a different random draw from the iid part used here)

@@ -1,0 +1,3 @@
+train n 593 (escaped 217), val n 81, test n 114
+best validation AUC 0.534 at epoch 3; train AUC 0.653
+(1) TEST AUC 0.523; (2) Spearman(score, T) on s 0-59: -0.12

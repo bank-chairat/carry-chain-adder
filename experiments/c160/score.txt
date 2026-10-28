@@ -1,0 +1,30 @@
+
+random: bit-5 error by d_5 (pooled over seeds 30-34; training count per d summed over seeds)
+  d_5=0: held-out  49777 errors  161 rate 0.0032  train 8303
+  d_5=1: held-out  25173 errors  125 rate 0.0050  train 4079
+  d_5=2: held-out  12549 errors  248 rate 0.0198  train 1962
+  d_5=3: held-out   6242 errors  354 rate 0.0567  train 1045
+  d_5=4: held-out   3082 errors  399 rate 0.1295  train 494
+  d_5=5: held-out   3177 errors  405 rate 0.1275  train 497
+  pooled d_5 coefficient 0.832 (95% bootstrap 0.806 to 0.858); total bit-5 errors 1692
+
+stratified: bit-5 error by d_5 (pooled over seeds 30-34; training count per d summed over seeds)
+  d_5=0: held-out  49777 errors  208 rate 0.0042  train 5611
+  d_5=1: held-out  25173 errors  158 rate 0.0063  train 2480
+  d_5=2: held-out  12549 errors  258 rate 0.0206  train 1607
+  d_5=3: held-out   6242 errors  196 rate 0.0314  train 1679
+  d_5=4: held-out   3082 errors   47 rate 0.0152  train 1868
+  d_5=5: held-out   3177 errors    0 rate 0.0000  train 3135
+  pooled d_5 coefficient 0.320 (95% bootstrap 0.290 to 0.350); total bit-5 errors 867
+
+own5: bit-5 error by d_5 (pooled over seeds 30-34; training count per d summed over seeds)
+  d_5=0: held-out  49777 errors 1555 rate 0.0312  train 2730
+  d_5=1: held-out  25173 errors  194 rate 0.0077  train 2730
+  d_5=2: held-out  12549 errors   18 rate 0.0014  train 2730
+  d_5=3: held-out   6242 errors    3 rate 0.0005  train 2730
+  d_5=4: held-out   3082 errors    0 rate 0.0000  train 2730
+  d_5=5: held-out   3177 errors    0 rate 0.0000  train 2730
+  pooled d_5 coefficient -1.490 (95% bootstrap -1.640 to -1.381); total bit-5 errors 1770
+
+C-160 (1) own5 coefficient negative with interval below 0: HIT (-1.490, -1.640 to -1.381)
+C-160 (2) error at d = 5 below error at d = 0: HIT (0.0000 vs 0.0312)

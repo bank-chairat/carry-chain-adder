@@ -1,0 +1,9 @@
+W64         share 0.141 (early 0.166) -> predicted ratio  20.4   measured  33.3   ln(pred/meas) -0.49
+W128        share 0.138 (early 0.117) -> predicted ratio  21.1   measured  10.2   ln(pred/meas) +0.72
+W512        share 0.314 (early 0.152) -> predicted ratio   3.5   measured   3.3   ln(pred/meas) +0.06
+frozen1024  share 0.223 (early 0.168) -> predicted ratio   7.8   measured  33.0   ln(pred/meas) -1.44
+CS2         share 0.343 (early 0.289) -> predicted ratio   2.9   measured   2.7   ln(pred/meas) +0.08
+CS4         share 0.357 (early 0.307) -> predicted ratio   2.8   measured   1.8   ln(pred/meas) +0.44
+lr3e-4      share 0.193 (early 0.191) -> predicted ratio  10.7   measured  22.9   ln(pred/meas) -0.76
+lr1e-2      share 0.206 (early 0.060) -> predicted ratio   9.3   measured   3.7   ln(pred/meas) +0.92
+Spearman(pred, meas) 0.76; median |ln(pred/meas)| 0.61

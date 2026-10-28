@@ -1,0 +1,19 @@
+p4 bit3 [1300, 2100, 1200, 1800, 2000] median 1800 | bit4 [700, 800, 600, 900, 700] median 700
+c4 bit3 [400, 500, 500, 400, 500] median 500 | bit4 [2700, 2400, 2600, 2400, 2500] median 2500
+p4c4 bit3 [400, 400, 600, 400, 500] median 400 | bit4 [300, 300, 400, 300, 400] median 300
+c4 faster than p4 on bit 3 in 5 of 5 seeds; p4 faster than c4 on bit 4 in 5 of 5
+E[Q4 F_j], j=0..8: [0.0, 0.0, 0.0, 0.0, 0.0625, 0.0, 0.0, 0.0, -0.003906] (note: 1/16 = 0.0625, -1/256 = -0.003906)
+E[H4 F_j], j=0..8: [-0.0625, -0.125, -0.25, -0.5, 0.0, 0.0, 0.0, 0.0, 0.0625] (note: -1/16 -1/8 -1/4 -1/2 = -0.0625 -0.125 -0.25 -0.5; 1/16 for F8)
+Q=0.0000 a=1.0 lambda formula 1.00000 numeric eig 1.00000 a/lambda 1.0000
+Q=1.0000 a=1.0 lambda formula 0.61803 numeric eig 0.61803 a/lambda 1.6180
+Q=3.3222 a=1.0 lambda formula 0.27778 numeric eig 0.27778 a/lambda 3.6000
+Q=10.0000 a=1.0 lambda formula 0.09902 numeric eig 0.09902 a/lambda 10.0990
+R=3.6 -> Q/a = 3.32222
+toy Hessian (b=2): [[1.0, -0.5], [-0.5, 0.0]] formula [[b^2/4, -1/2],[-1/2, 0]] = [[1.0, -0.5], [-0.5, 0]]
+bit 4 k=0 error 0.468750 formula 0.468750
+bit 4 k=3 error 0.031250 formula 0.031250
+bit 4 k=4 error 0.000000 formula 0.000000
+bit 7 k=0 error 0.496094 formula 0.496094
+bit 7 k=6 error 0.003906 formula 0.003906
+bit 7 k=7 error 0.000000 formula 0.000000
+1 - h2(15/32) = 0.00281960 bits

@@ -1,0 +1,23 @@
+1000 initialisations, labelled 840 (escaped 306); 60 with known T
+t =  25: AUC 0.593   Spearman(J(t), T) on known-T inits +0.01
+t =  50: AUC 0.691   Spearman(J(t), T) on known-T inits -0.33
+t =  75: AUC 0.788   Spearman(J(t), T) on known-T inits -0.41
+t = 100: AUC 0.849   Spearman(J(t), T) on known-T inits -0.48
+t = 125: AUC 0.914   Spearman(J(t), T) on known-T inits -0.60
+t = 150: AUC 0.941   Spearman(J(t), T) on known-T inits -0.66
+t = 175: AUC 0.963   Spearman(J(t), T) on known-T inits -0.64
+t = 200: AUC 0.978   Spearman(J(t), T) on known-T inits -0.69
+t = 225: AUC 0.989   Spearman(J(t), T) on known-T inits -0.69
+t = 250: AUC 0.994   Spearman(J(t), T) on known-T inits -0.70
+t = 275: AUC 0.995   Spearman(J(t), T) on known-T inits -0.77
+t = 300: AUC 0.997   Spearman(J(t), T) on known-T inits -0.76
+t = 325: AUC 0.999   Spearman(J(t), T) on known-T inits -0.78
+t = 350: AUC 0.999   Spearman(J(t), T) on known-T inits -0.79
+t = 375: AUC 1.000   Spearman(J(t), T) on known-T inits -0.81
+t = 400: AUC 1.000   Spearman(J(t), T) on known-T inits -0.78
+t = 425: AUC 1.000   Spearman(J(t), T) on known-T inits -0.81
+t = 450: AUC 1.000   Spearman(J(t), T) on known-T inits -0.81
+t = 475: AUC 1.000   Spearman(J(t), T) on known-T inits -0.81
+(1) AUC at 50 <= 0.65: MISSED (0.691)
+(2) AUC at 250 >= 0.85: HIT (0.994)
+(3) first t with AUC >= 0.8 in 100-300: HIT (100)

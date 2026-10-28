@@ -1,0 +1,6 @@
+s 28 t_on 50 step 150 J 0.236 | top-5 share of positive drops: L1 0.35 L2 0.82 L3 0.16 | top L1 units' init percentiles: pos4-share 68, |a4-b4| 81, activity~1/2 30; moved 45
+s 26 t_on 100 step 200 J 0.151 | top-5 share of positive drops: L1 0.26 L2 0.72 L3 0.23 | top L1 units' init percentiles: pos4-share 65, |a4-b4| 78, activity~1/2 30; moved 50
+s 38 t_on 100 step 200 J 0.287 | top-5 share of positive drops: L1 0.31 L2 0.67 L3 0.20 | top L1 units' init percentiles: pos4-share 96, |a4-b4| 15, activity~1/2 51; moved 91
+s 8 t_on 125 step 225 J 0.229 | top-5 share of positive drops: L1 0.26 L2 0.57 L3 0.22 | top L1 units' init percentiles: pos4-share 91, |a4-b4| 19, activity~1/2 45; moved 47
+s 11 t_on 125 step 225 J 0.233 | top-5 share of positive drops: L1 0.32 L2 0.68 L3 0.18 | top L1 units' init percentiles: pos4-share 72, |a4-b4| 22, activity~1/2 74; moved 36
+s 22 t_on 125 step 225 J 0.251 | top-5 share of positive drops: L1 0.38 L2 0.79 L3 0.18 | top L1 units' init percentiles: pos4-share 76, |a4-b4| 93, activity~1/2 73; moved 59

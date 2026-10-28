@@ -1,0 +1,10 @@
+(a) traced runs
+  s 28: top-5 layer-2 units, initial |corr with bit-4 target| percentiles [99, 86, 5, 30, 78], median 78; their initial |corr| [0.0675, 0.0118, 0.0005, 0.0035, 0.0087] (layer max 0.0675)
+  s 26: top-5 layer-2 units, initial |corr with bit-4 target| percentiles [98, 23, 38, 64, 54], median 54; their initial |corr| [0.0441, 0.0017, 0.0027, 0.0052, 0.0041] (layer max 0.0443)
+  s 38: top-5 layer-2 units, initial |corr with bit-4 target| percentiles [98, 98, 55, 81, 64], median 81; their initial |corr| [0.0483, 0.0459, 0.0049, 0.0105, 0.0057] (layer max 0.0515)
+  s 8: top-5 layer-2 units, initial |corr with bit-4 target| percentiles [86, 81, 70, 27, 99], median 81; their initial |corr| [0.0121, 0.0105, 0.0076, 0.0024, 0.0466] (layer max 0.0466)
+  s 11: top-5 layer-2 units, initial |corr with bit-4 target| percentiles [98, 34, 28, 38, 42], median 38; their initial |corr| [0.0433, 0.0033, 0.0028, 0.0035, 0.0039] (layer max 0.0497)
+  s 22: top-5 layer-2 units, initial |corr with bit-4 target| percentiles [99, 80, 50, 73, 9], median 73; their initial |corr| [0.0678, 0.0097, 0.0045, 0.0073, 0.0008] (layer max 0.0678)
+(b) layer 1: Spearman(G, J500) over s 100-499 +0.15; Spearman(G, T) over s 0-59 -0.27; G median 0.0388
+(b) layer 2: Spearman(G, J500) over s 100-499 +0.22; Spearman(G, T) over s 0-59 -0.03; G median 0.0350
+(b) layer 3: Spearman(G, J500) over s 100-499 +0.06; Spearman(G, T) over s 0-59 -0.15; G median 0.0318

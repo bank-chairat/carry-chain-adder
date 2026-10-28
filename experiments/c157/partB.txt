@@ -1,0 +1,33 @@
+
+random: bit-6 error by d_6 (pooled over seeds 30-34; training count per d summed over seeds)
+  d_6=0: held-out  49877 errors   47 rate 0.0009  train 8159
+  d_6=1: held-out  24877 errors   64 rate 0.0026  train 4189
+  d_6=2: held-out  12703 errors   79 rate 0.0062  train 2030
+  d_6=3: held-out   6295 errors   99 rate 0.0157  train 978
+  d_6=4: held-out   3115 errors  128 rate 0.0411  train 522
+  d_6=5: held-out   1518 errors  119 rate 0.0784  train 249
+  d_6=6: held-out   1615 errors  152 rate 0.0941  train 253
+  pooled d_6 coefficient 0.790 (95% bootstrap 0.757 to 0.823); total bit-6 errors 688
+
+stratified: bit-6 error by d_6 (pooled over seeds 30-34; training count per d summed over seeds)
+  d_6=0: held-out  49877 errors  271 rate 0.0054  train 6038
+  d_6=1: held-out  24877 errors  257 rate 0.0103  train 2387
+  d_6=2: held-out  12703 errors  286 rate 0.0225  train 1347
+  d_6=3: held-out   6295 errors  193 rate 0.0307  train 1191
+  d_6=4: held-out   3115 errors   93 rate 0.0299  train 1371
+  d_6=5: held-out   1518 errors   26 rate 0.0171  train 1568
+  d_6=6: held-out   1615 errors    0 rate 0.0000  train 2478
+  pooled d_6 coefficient 0.289 (95% bootstrap 0.262 to 0.313); total bit-6 errors 1126
+
+own6: bit-6 error by d_6 (pooled over seeds 30-34; training count per d summed over seeds)
+  d_6=0: held-out  49877 errors 1632 rate 0.0327  train 2340
+  d_6=1: held-out  24877 errors  294 rate 0.0118  train 2340
+  d_6=2: held-out  12703 errors   69 rate 0.0054  train 2340
+  d_6=3: held-out   6295 errors    9 rate 0.0014  train 2340
+  d_6=4: held-out   3115 errors    0 rate 0.0000  train 2340
+  d_6=5: held-out   1518 errors    0 rate 0.0000  train 2340
+  d_6=6: held-out   1615 errors    0 rate 0.0000  train 2340
+  pooled d_6 coefficient -1.006 (95% bootstrap -1.088 to -0.930); total bit-6 errors 2004
+
+(B1) own6 coefficient positive with interval excluding 0: MISSED (-1.006, -1.088 to -0.930)
+(B2) own6 coefficient at least half of the stratified one (0.289): MISSED (ratio -3.48)

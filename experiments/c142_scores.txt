@@ -1,0 +1,15 @@
+tau 0.1 pen 0.001 CV AUC 0.639
+tau 0.1 pen 0.01 CV AUC 0.667
+tau 0.1 pen 0.1 CV AUC 0.614
+tau 0.3 pen 0.001 CV AUC 0.541
+tau 0.3 pen 0.01 CV AUC 0.490
+tau 0.3 pen 0.1 CV AUC 0.509
+tau 1 pen 0.001 CV AUC 0.476
+tau 1 pen 0.01 CV AUC 0.502
+tau 1 pen 0.1 CV AUC 0.538
+tau 1000 pen 0.001 CV AUC 0.541
+tau 1000 pen 0.01 CV AUC 0.526
+tau 1000 pen 0.1 CV AUC 0.523
+(1) selected tau 0.1 pen 0.01: held-out AUC 0.396; on s 0-59 Spearman(score, T) 0.05
+(2) hand score: held-out AUC 0.527; on s 0-59 Spearman with T -0.04
+largest unit-score coefficients: w_a7^2 +0.47, w_a2*w_b2 +0.45, w_a6^2 +0.45, w_b0^2 -0.44, w_a1 -0.38, act(1-act) +0.37, w_a1^2 +0.33, w_a7*w_b7 -0.29, w_a2 +0.29, w_b5^2 +0.25, w_a3^2 -0.25, w_a2^2 +0.24

@@ -1,0 +1,10 @@
+W64     ratio  33.3 | last-layer R2 on S 0.780 | last-layer norm-S corr +0.226 | second-to-last R2 on S 0.643
+W128    ratio  10.2 | last-layer R2 on S 0.810 | last-layer norm-S corr +0.221 | second-to-last R2 on S 0.673
+W512    ratio   3.3 | last-layer R2 on S 0.756 | last-layer norm-S corr +0.111 | second-to-last R2 on S 0.574
+FW1024  ratio  33.0 | last-layer R2 on S 0.825 | last-layer norm-S corr -0.138 | second-to-last R2 on S 0.867
+CS2     ratio   2.7 | last-layer R2 on S 0.509 | last-layer norm-S corr +0.447 | second-to-last R2 on S 0.287
+CS4     ratio   1.8 | last-layer R2 on S 0.105 | last-layer norm-S corr +0.451 | second-to-last R2 on S 0.080
+lr3e-4  ratio  22.9 | last-layer R2 on S 0.834 | last-layer norm-S corr +0.372 | second-to-last R2 on S 0.594
+lr1e-2  ratio   3.7 | last-layer R2 on S 0.405 | last-layer norm-S corr -0.152 | second-to-last R2 on S 0.506
+Spearman(primary: last-layer R2 on S, ratio) +0.76 -> prediction (at least +0.6): HIT
+secondary: Spearman(last-layer norm-S corr, ratio) -0.40; second-to-last R2 +0.86

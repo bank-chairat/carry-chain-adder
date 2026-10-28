@@ -1,0 +1,6 @@
+seed,scheme,n_train,test_acc_all_bits_mean,test_acc_min_bit
+105,random,3276,0.99579,0.97760
+106,random,3276,0.99871,0.99520
+107,random,3276,0.99667,0.97835
+108,random,3276,0.99307,0.96660
+109,random,3276,0.99812,0.98825

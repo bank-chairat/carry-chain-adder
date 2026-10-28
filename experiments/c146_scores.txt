@@ -1,0 +1,6 @@
+layer 2 sgn1: Spearman with J500 (s 100-499) +0.03; escape AUC 0.53; Spearman with T (s 0-59 minus used, n=47) -0.04
+layer 2 tilt: Spearman with J500 (s 100-499) +0.03; escape AUC 0.54; Spearman with T (s 0-59 minus used, n=47) +0.10
+layer 1 sgn1: Spearman with J500 (s 100-499) +0.15; escape AUC 0.58; Spearman with T (s 0-59 minus used, n=47) -0.26
+layer 1 tilt: Spearman with J500 (s 100-499) +0.08; escape AUC 0.52; Spearman with T (s 0-59 minus used, n=47) -0.03
+layer 3 sgn1: Spearman with J500 (s 100-499) +0.03; escape AUC 0.53; Spearman with T (s 0-59 minus used, n=47) +0.35
+layer 3 tilt: Spearman with J500 (s 100-499) +0.00; escape AUC 0.51; Spearman with T (s 0-59 minus used, n=47) +0.31

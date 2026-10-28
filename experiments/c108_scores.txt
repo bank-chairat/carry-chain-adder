@@ -1,0 +1,19 @@
+none [550, 550, 350, 500, 550]
+head_v [550, 600, 350, 500, 650]
+L3_v [650, 600, 350, 550, 600]
+L2_v [750, 700, 350, 600, 700]
+L1_v [1050, 850, 400, 800, 1050]
+all_v [1950, 1300, 350, 1250, 1300]
+all_v_x0.1 [1050, 1100, 300, 750, 850]
+all_v_x0.3 [1200, 1250, 300, 950, 1050]
+all_v_x3 [2550, 1450, 500, 1450, 1650]
+delayed seeds [0, 1, 3, 4]
+dose seed 0 [1050, 1200, 1950, 2550] True
+dose seed 1 [1100, 1250, 1300, 1450] True
+dose seed 3 [750, 950, 1250, 1450] True
+dose seed 4 [850, 1050, 1300, 1650] True
+P1 monotone 4 of 4
+L1_v f [np.float64(0.51), np.float64(0.51), np.float64(0.51), np.float64(0.75)] median 0.51
+L2_v f [np.float64(0.25), np.float64(0.28), np.float64(0.2), np.float64(0.28)] median 0.26
+L3_v f [np.float64(0.13), np.float64(0.1), np.float64(0.1), np.float64(0.1)] median 0.1
+head_v f [np.float64(0.0), np.float64(0.1), np.float64(0.0), np.float64(0.19)] median 0.05

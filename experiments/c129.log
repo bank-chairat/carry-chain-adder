@@ -1,0 +1,15 @@
+0 joint 4450
+0 blockL3 550
+0 blockL3_dilV 1100
+1 joint 5100
+1 blockL3 750
+1 blockL3_dilV 800
+2 joint 1000
+2 blockL3 450
+2 blockL3_dilV 1050
+3 joint 2550
+3 blockL3 1300
+3 blockL3_dilV 1400
+4 joint 2550
+4 blockL3 None
+4 blockL3_dilV 1500

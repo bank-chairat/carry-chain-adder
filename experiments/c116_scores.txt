@@ -1,0 +1,8 @@
+W64              alone [300, 300, 300, 400, 550] conf3 [350, 350, 450, 400, 450] joint [10000, 10000, 10000, 10000, 9650] | medians 300/400/10000 | conf3/alone 1.33 joint/alone 33.3 | joint L2 R2S med 0.64
+W128             alone [200, 200, 250, 250, 300] conf3 [300, 250, 300, 300, 350] joint [4600, 3950, 1000, 2450, 2550] | medians 250/300/2550 | conf3/alone 1.20 joint/alone 10.2 | joint L2 R2S med 0.67
+W512             alone [150, 150, 250, 150, 150] conf3 [150, 150, 200, 200, 200] joint [600, 450, 600, 450, 500] | medians 150/200/500 | conf3/alone 1.33 joint/alone 3.3 | joint L2 R2S med 0.57
+frozen1024+W128  alone [200, 200, 200, 200, 150] conf3 [200, 200, 150, 200, 300] joint [3700, 7500, 6600, 4800, 9650] | medians 200/200/6600 | conf3/alone 1.00 joint/alone 33.0 | joint L2 R2S med 0.87
+W128 CS2         alone [300, 250, 300, 350, 350] conf3 [350, 300, 350, 400, 500] joint [800, 750, 700, 1150, 1000] | medians 300/350/800 | conf3/alone 1.17 joint/alone 2.7 | joint L2 R2S med 0.29
+W128 CS4         alone [700, 600, 650, 600, 750] conf3 [900, 800, 800, 850, 950] joint [1200, 950, 1100, 1500, 1400] | medians 650/850/1200 | conf3/alone 1.31 joint/alone 1.8 | joint L2 R2S med 0.08
+Spearman (20 joint runs W64/128/512/frozen) L2 R2S vs time: 0.4
+Spearman (all 30 joint runs incl. CS) L2 R2S vs time: 0.53

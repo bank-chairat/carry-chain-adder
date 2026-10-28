@@ -1,0 +1,4 @@
+  warnings.warn(
+P_GD                     Spearman with J500 (s 100-499) +0.02; escape AUC 0.52; Spearman with T (s 0-59) -0.29; median value +0.0067
+P_Adam                   Spearman with J500 (s 100-499) +0.04; escape AUC 0.52; Spearman with T (s 0-59) -0.30; median value +0.0182
+P_4 (alone, Adam sign)   Spearman with J500 (s 100-499) -0.03; escape AUC 0.47; Spearman with T (s 0-59) -0.14; median value +0.0329

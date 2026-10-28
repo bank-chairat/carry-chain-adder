@@ -1,0 +1,4 @@
+onset (0 -> corr 0.05)     median    725 range    50- 1750  share of T: 0.20  cov(seg,T)/var(T): 0.28  Spearman with T +0.91
+corr 0.05 -> acc 0.60      median    550 range   175- 2000  share of T: 0.21  cov(seg,T)/var(T): 0.33  Spearman with T +0.92
+acc 0.60 -> 0.90           median    925 range   125- 2825  share of T: 0.31  cov(seg,T)/var(T): 0.30  Spearman with T +0.87
+acc 0.90 -> 0.99 (T)       median    600 range   275- 1400  share of T: 0.22  cov(seg,T)/var(T): 0.10  Spearman with T +0.56

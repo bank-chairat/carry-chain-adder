@@ -1,0 +1,9 @@
+inits with onset and t_half: 40 of 40
+(1) Spearman(t_half, t_on) over inits 0.18; Spearman(t_half, T) 0.29; t_half median 475 range 425-5300; peak step median 450
+(2) runs with t_on >= t_half - 100: 25 of 60 (42%)
+  lr3e-4  t_half median 3800  t_on median 2425  T median 9150  (n 5)
+  lr1e-2  t_half median 175  t_on median 200  T median 550  (n 5)
+  W64     t_half median 6925  t_on median 1650  T median 10000  (n 5)
+  W512    t_half median 325  t_on median 100  T median 500  (n 5)
+  C83     t_half median 475  t_on median 600  T median 2850  (n 40)
+(3) Spearman over settings of medians (t_half, t_on): 0.80

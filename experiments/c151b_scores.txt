@@ -1,0 +1,10 @@
+net 0: variance share explained (layer 1 / 2 / 3): S-code 0.18 / 0.60 / 0.82 | nine sum bits 0.19 / 0.63 / 0.80 | all p_i and c_i 0.38 / 0.30 / 0.25 | bit 4 alone 0.000 / 0.000 / 0.001
+net 1: variance share explained (layer 1 / 2 / 3): S-code 0.21 / 0.73 / 0.91 | nine sum bits 0.22 / 0.74 / 0.87 | all p_i and c_i 0.36 / 0.25 / 0.21 | bit 4 alone 0.001 / 0.006 / 0.004
+net 2: variance share explained (layer 1 / 2 / 3): S-code 0.17 / 0.58 / 0.84 | nine sum bits 0.17 / 0.61 / 0.83 | all p_i and c_i 0.40 / 0.34 / 0.26 | bit 4 alone 0.000 / 0.002 / 0.012
+net 3: variance share explained (layer 1 / 2 / 3): S-code 0.18 / 0.57 / 0.82 | nine sum bits 0.19 / 0.61 / 0.89 | all p_i and c_i 0.37 / 0.34 / 0.24 | bit 4 alone 0.001 / 0.010 / 0.015
+net 4: variance share explained (layer 1 / 2 / 3): S-code 0.20 / 0.70 / 0.89 | nine sum bits 0.21 / 0.71 / 0.84 | all p_i and c_i 0.31 / 0.25 / 0.22 | bit 4 alone 0.001 / 0.006 / 0.012
+net 5: variance share explained (layer 1 / 2 / 3): S-code 0.31 / 0.85 / 0.91 | nine sum bits 0.32 / 0.85 / 0.90 | all p_i and c_i 0.34 / 0.24 / 0.21 | bit 4 alone 0.001 / 0.006 / 0.008
+net 6: variance share explained (layer 1 / 2 / 3): S-code 0.21 / 0.72 / 0.88 | nine sum bits 0.22 / 0.74 / 0.82 | all p_i and c_i 0.30 / 0.22 / 0.24 | bit 4 alone 0.001 / 0.005 / 0.006
+net 7: variance share explained (layer 1 / 2 / 3): S-code 0.15 / 0.50 / 0.85 | nine sum bits 0.15 / 0.53 / 0.82 | all p_i and c_i 0.39 / 0.35 / 0.26 | bit 4 alone 0.001 / 0.002 / 0.003
+net 8: variance share explained (layer 1 / 2 / 3): S-code 0.20 / 0.68 / 0.88 | nine sum bits 0.21 / 0.69 / 0.88 | all p_i and c_i 0.34 / 0.27 / 0.21 | bit 4 alone 0.001 / 0.004 / 0.011
+net 9: variance share explained (layer 1 / 2 / 3): S-code 0.15 / 0.52 / 0.80 | nine sum bits 0.16 / 0.55 / 0.81 | all p_i and c_i 0.35 / 0.32 / 0.27 | bit 4 alone 0.001 / 0.009 / 0.018

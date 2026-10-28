@@ -1,0 +1,15 @@
+none 0 [150, 450, 800, 4350, 4600, 2050, 1650, 1050, 550] hump ratio 8.36, slowest 4600 (bit 4)
+none 1 [100, 450, 900, 1600, 3950, 3850, 2050, 950, 550] hump ratio 7.18, slowest 3950 (bit 4)
+none 2 [100, 600, 1350, 2500, 1000, 2050, 1250, 750, 450] hump ratio 4.17, slowest 2500 (bit 3)
+none 3 [100, 400, 750, 2050, 2450, 2850, 1400, 900, 550] hump ratio 5.18, slowest 2850 (bit 5)
+none 4 [100, 450, 550, 4450, 2550, 3500, 1950, 1000, 600] hump ratio 7.42, slowest 4450 (bit 3)
+none median per bit [np.float64(100.0), np.float64(450.0), np.float64(800.0), np.float64(2500.0), np.float64(2550.0), np.float64(2850.0), np.float64(1650.0), np.float64(950.0), np.float64(550.0)]
+ln 0 [100, 200, 250, 350, 350, 400, 400, 400, 200] hump ratio 2.00, slowest 400 (bit 5)
+ln 1 [100, 200, 250, 350, 450, 400, 400, 400, 200] hump ratio 2.25, slowest 450 (bit 4)
+ln 2 [100, 200, 300, 300, 350, 400, 400, 450, 200] hump ratio 2.00, slowest 450 (bit 7)
+ln 3 [100, 200, 250, 350, 400, 400, 500, 400, 200] hump ratio 2.50, slowest 500 (bit 6)
+ln 4 [50, 200, 250, 400, 450, 450, 500, 400, 300] hump ratio 1.67, slowest 500 (bit 6)
+ln median per bit [np.float64(100.0), np.float64(200.0), np.float64(250.0), np.float64(350.0), np.float64(400.0), np.float64(400.0), np.float64(400.0), np.float64(400.0), np.float64(200.0)]
+(1) none hump >= 3 in >= 4 of 5: 5 of 5
+(2) ln hump <= 2 in >= 4 of 5: 3 of 5
+(3) ln slowest at most half of none slowest in every seed: True [(400, 4600), (450, 3950), (450, 2500), (500, 2850), (500, 4450)]

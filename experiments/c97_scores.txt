@@ -1,0 +1,4 @@
+3e-4 n= 5 joint [-1, 11400, 3825, 9350, 9750] alone [400, 400, 450, 450, 475] ratios [30.0, 28.5, 8.5, 20.78, 20.53] median ratio 20.78 median joint 9750.0 median alone 450.0
+1e-3 n= 5 joint [4375, 5150, 975, 2425, 2525] alone [200, 250, 225, 225, 275] ratios [21.88, 20.6, 4.33, 10.78, 9.18] median ratio 10.78 median joint 2525.0 median alone 225.0
+3e-3 n= 5 joint [625, 1225, 1125, 1150, 1125] alone [150, 150, 150, 125, 175] ratios [4.17, 8.17, 7.5, 9.2, 6.43] median ratio 7.5 median joint 1125.0 median alone 150.0
+1e-2 n= 5 joint [500, 650, 425, 450, 700] alone [150, 125, 150, 150, 175] ratios [3.33, 5.2, 2.83, 3.0, 4.0] median ratio 3.33 median joint 500.0 median alone 150.0

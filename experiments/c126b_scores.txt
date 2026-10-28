@@ -1,0 +1,2 @@
+POST HOC linear onset model T = 1283 + 2.53 t_on (fit on even inits); held-out Spearman 0.89, median |ln(T_hat/T)| 0.14, max 0.52
+growth rate of log-correlation: at 0.05-0.2 median 0.0036, at 0.3-0.7 median 0.0007 (runs with both: 39); late/early median ratio 0.17

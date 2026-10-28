@@ -1,0 +1,3 @@
+n=6 add done
+n=6 xor done
+done

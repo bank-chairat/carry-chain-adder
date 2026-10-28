@@ -1,0 +1,9 @@
+/home/claude/carry_chain/c54_transformer.py:10: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  s.enc = nn.TransformerEncoder(nn.TransformerEncoderLayer(64, 4, 128, dropout=0.0, batch_first=True, norm_first=True), 2); s.out = nn.Linear(64, n + 1)
+0.001 0 [1900, 4000, 5700, 4600, 4700, 4000, 3700, 2600, 600] 0.9992
+/home/claude/carry_chain/c54_transformer.py:10: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  s.enc = nn.TransformerEncoder(nn.TransformerEncoderLayer(64, 4, 128, dropout=0.0, batch_first=True, norm_first=True), 2); s.out = nn.Linear(64, n + 1)
+0.001 1 [2900, 6900, 18900, 19900, 12000, 9900, 7500, 1200, 800] 0.998
+0.001 2 [1800, 5400, 13500, -1, 15400, 6500, 5700, 1900, 700] 0.9512
+0.001 3 [1700, 5700, 5600, 4300, 5900, 4600, 3600, 900, 500] 0.9984
+0.001 4 [8100, 7800, 7800, 7200, 7700, 7000, 5300, 1100, 1000] 0.999

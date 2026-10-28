@@ -1,0 +1,5 @@
+LayerNorm: n 40, censored 0, median 400, range 300-450, p90/p10 1.29, max/min 1.50
+no normalisation (C-83): median 2850, p90/p10 3.67, max/min 6.67
+(1) p90/p10 at most 1.8: HIT
+(2) Spearman(LN times, C-83 times) below +0.3: HIT (+0.28)
+LN times: [np.int64(400), np.int64(450), np.int64(300), np.int64(450), np.int64(450), np.int64(400), np.int64(400), np.int64(450), np.int64(350), np.int64(450), np.int64(350), np.int64(400), np.int64(400), np.int64(450), np.int64(400), np.int64(450), np.int64(400), np.int64(400), np.int64(450), np.int64(400), np.int64(450), np.int64(450), np.int64(350), np.int64(400), np.int64(350), np.int64(450), np.int64(450), np.int64(450), np.int64(350), np.int64(450), np.int64(400), np.int64(400), np.int64(400), np.int64(350), np.int64(400), np.int64(400), np.int64(400), np.int64(450), np.int64(350), np.int64(400)]

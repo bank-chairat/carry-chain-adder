@@ -1,0 +1,18 @@
+200 runs (s 100-299), censored at 9,000: 0; T median 2625, range 1100-7000
+t =  25: Spearman(J(t), T) -0.16
+t =  50: Spearman(J(t), T) -0.22
+t =  75: Spearman(J(t), T) -0.45
+t = 100: Spearman(J(t), T) -0.60
+t = 125: Spearman(J(t), T) -0.64
+t = 150: Spearman(J(t), T) -0.67
+t = 200: Spearman(J(t), T) -0.78
+t = 250: Spearman(J(t), T) -0.81
+t = 300: Spearman(J(t), T) -0.82
+t = 400: Spearman(J(t), T) -0.85
+t = 500: Spearman(J(t), T) -0.89
+(1) Spearman at 25 within +-0.15: MISSED (-0.16)
+(2) Spearman at 125 at most -0.4: HIT (-0.64)
+(3) Spearman at 250 at most -0.55: HIT (-0.81)
+onset law on 200 uncensored runs with an onset: median |ln(T_hat/T)| 0.11 (max 0.57); constant prediction 2,900 (C-83 median) 0.32; Spearman(T_hat, T) 0.90
+(4) median |ln error| at most 0.25: HIT; (5) Spearman at least 0.8: HIT
+max |J diff| vs C-139 over all runs: 0

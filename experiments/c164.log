@@ -1,0 +1,11 @@
+seed=30 own5 acc=0.9990 min bit 0.9974 (642s)
+seed=30 random acc=0.9997 min bit 0.9978 (434s)
+seed=31 own5 acc=0.9988 min bit 0.9944 (453s)
+seed=31 random acc=0.9993 min bit 0.9970 (1339s)
+seed=32 own5 acc=0.9993 min bit 0.9981 (219s)
+seed=32 random acc=0.9997 min bit 0.9979 (605s)
+seed=33 own5 acc=0.9993 min bit 0.9964 (325s)
+seed=33 random acc=0.9996 min bit 0.9987 (34s)
+seed=34 own5 acc=0.9991 min bit 0.9946 (749s)
+seed=34 random acc=0.9992 min bit 0.9959 (469s)
+done

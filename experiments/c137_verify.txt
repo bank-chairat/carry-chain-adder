@@ -1,0 +1,19 @@
+C-129 {'joint': np.float64(2550.0), 'blockL3': np.float64(750.0), 'blockL3_dilV': np.float64(1100.0)}
+C-129b FO 1/8 {'none': np.float64(250.0), 'L3': np.float64(250.0)}
+C-132 FO 0.25 median 250.0 [250, 250, 200, 250, 300]
+C-132 FO 0.5 median 500.0 [500, 400, 450, 650, 850]
+C-132 FO 2 median 1050.0 [1050, 1050, 1050, 1050, 1050]
+DUP512/W512 ratio of medians: onset 4.75, growth phase 1.56, total 2.50
+W128/DUP512 ratio of medians: onset 1.37, growth phase 3.08, total 2.04
+C-130 ['sigma 0.001: median |ln ratio| 0.13 | fast: slower-by median 1.22, draws <=1.5x: 9/9 | slow: faster-by median 1.09', 'sigma 0.01: median |ln ratio| 0.10 | fast: slower-by median 1.00, draws <=1.5x: 9/9 | slow: faster-by median 1.13', 'sigma 0.03: median |ln ratio| 0.08 | fast: slower-by median 1.00, draws <=1.5x: 8/9 | slow: faster-by median 1.08', 'sigma 0.1: median |ln ratio| 0.17 | fast: slower-by median 1.00, draws <=1.5x: 6/9 | slow: faster-by median 1.26', 'sigma 0.3: median |ln ratio| 0.31 | fast: slower-by median 1.33, draws <=1.5x: 5/9 | slow: faster-by median 1.28']
+slow +grad: original/moved [(35, 1.69, -0.0028), (5, 2.23, 0.0645), (37, 0.86, -0.0055), (36, 1.28, -0.002), (10, 1.93, 0.0536), (25, 1.1, 0.0042), (24, 2.4, 0.0179)] median 1.69
+fast -grad: moved/original [(38, 1.67, 0.095), (23, 1.79, -0.0029), (28, 2.5, -0.0041)] median 1.79
+slow inits whose J(125) rose to >= 0.015 after the move: speed-up [2.23, 1.93, 2.4] | J did not rise: [1.69, 0.86, 1.28, 1.1]
+c135 down4up7 n 3 slow-down median 6.04 J125 range -0.009..-0.003
+c135 up4down7 n 7 speed-up median 4.53 J125 range 0.004..0.324
+c135ctl up5down6 n 7 speed-up median 1.53 J125 range -0.010..0.008
+c135c down4 n 3 slow-down median 4.21 J125 range -0.007..0.004
+c135c down7 n 7 speed-up median 1.50 J125 range -0.005..0.040
+c135c up4 n 7 speed-up median 3.33 J125 range -0.001..0.180
+c135c up7 n 3 slow-down median 1.25 J125 range 0.024..0.151
+held-out: median |ln(T_hat/T)| 0.40 (max 0.86); Spearman(J125, T) -0.31; J125 range -0.010 to 0.032

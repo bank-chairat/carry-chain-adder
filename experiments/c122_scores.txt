@@ -1,0 +1,5 @@
+W128dup4 alone [200, 200, 200, 250, 250] joint [1100, 1700, 700, 1550, 1150] medians 200 / 1150 ratio 5.8 | L2 R2S joint 0.54
+DUP512 alone [200, 200, 200, 250, 250] joint [1400, 1250, 700, 1550, 1100] medians 200 / 1250 ratio 6.2 | L2 R2S joint 0.54
+theorem check alone |W128dup4 - DUP512| per seed [0, 0, 0, 0, 0]
+theorem check joint |W128dup4 - DUP512| per seed [300, 450, 0, 0, 50]
+references (C-116): W128 alone 250 joint 2550 ratio 10.2; W512 alone 150 joint 500 ratio 3.3

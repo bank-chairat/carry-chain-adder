@@ -1,0 +1,12 @@
+c165_d2 alone [300, 300, 350, 400, 500] median 350.0 | second-to-last / last layer R2 on S at 250: 
+c165_d2 conf3 [600, 600, 500, 650, 650] median 600.0 | second-to-last / last layer R2 on S at 250: 
+c165_d2 joint [7900, 2450, 1800, 4400, 5000] median 4400.0 | second-to-last / last layer R2 on S at 250: [('0.1833', '0.4963'), ('0.1607', '0.5569'), ('0.1647', '0.5473'), ('0.1751', '0.5347'), ('0.1655', '0.5028')]
+c165_d2 conf/alone 1.71  joint/alone 12.57
+c165_d4 alone [300, 150, 150, 200, 250] median 200.0 | second-to-last / last layer R2 on S at 250: 
+c165_d4 conf3 [200, 200, 150, 250, 250] median 200.0 | second-to-last / last layer R2 on S at 250: 
+c165_d4 joint [4650, 1750, 1800, 2450, 2900] median 2450.0 | second-to-last / last layer R2 on S at 250: [('0.8437', '0.8288'), ('0.8473', '0.7929'), ('0.8637', '0.8136'), ('0.8647', '0.8294'), ('0.8654', '0.8089')]
+c165_d4 conf/alone 1.00  joint/alone 12.25
+c165_d3check alone [200] median 200.0 | second-to-last / last layer R2 on S at 250: 
+c165_d3check conf3 [300] median 300.0 | second-to-last / last layer R2 on S at 250: 
+c165_d3check joint [4600] median 4600.0 | second-to-last / last layer R2 on S at 250: [('0.6981', '0.8094')]
+c165_d3check conf/alone 1.50  joint/alone 23.00

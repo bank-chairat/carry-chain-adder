@@ -1,0 +1,24 @@
+rho* (median correlation at confirmation, even inits) = 0.799; spread on even inits 0.718-0.873
+  s  1 T  5300 T_hat     inf  t_on 1425 lambda -0.0041
+  s  3 T  4150 T_hat    1452  t_on  875 lambda 0.0046
+  s  5 T  5800 T_hat    2431  t_on 1675 lambda 0.0032
+  s  7 T  2250 T_hat     584  t_on  150 lambda 0.0060
+  s  9 T  4150 T_hat    3136  t_on 1025 lambda 0.0012
+  s 11 T  1450 T_hat     364  t_on  125 lambda 0.0096
+  s 13 T  2700 T_hat    4155  t_on  800 lambda 0.0008
+  s 15 T  3700 T_hat     inf  t_on  800 lambda -0.0007
+  s 17 T  1800 T_hat     330  t_on  150 lambda 0.0120
+  s 19 T  5400 T_hat    5773  t_on 1075 lambda 0.0005
+  s 21 T  3000 T_hat    1700  t_on  925 lambda 0.0032
+  s 23 T  1200 T_hat     335  t_on  125 lambda 0.0117
+  s 25 T  4500 T_hat    2203  t_on 1125 lambda 0.0024
+  s 27 T  3750 T_hat    2744  t_on  500 lambda 0.0011
+  s 29 T  2550 T_hat     945  t_on  450 lambda 0.0050
+  s 31 T  1400 T_hat     463  t_on  175 lambda 0.0080
+  s 33 T  1600 T_hat     439  t_on  175 lambda 0.0091
+  s 35 T  6000 T_hat   13762  t_on  900 lambda 0.0002
+  s 37 T  5750 T_hat    2069  t_on 1000 lambda 0.0026
+  s 39 T  1500 T_hat     352  t_on  125 lambda 0.0108
+held-out: Spearman 0.77; median |ln(T_hat/T)| 1.01 (finite predictions 18 of 20)
+baseline without growth (T_hat = median T of even inits): median |ln| 0.53
+t_on alone (rank model): Spearman(t_on, T) on held-out 0.89

@@ -1,0 +1,53 @@
+== Prediction 1: bit 4 first eval with aggregate error in [0.2,0.5]; error in L=0 stratum
+seed 0 step 0 agg 0.495 by L [0.497, 0.492, 0.491, 0.496, 0.493]
+seed 1 step 0 agg 0.5 by L [0.499, 0.508, 0.497, 0.475, 0.516]
+seed 2 step 0 agg 0.498 by L [0.503, 0.494, 0.489, 0.478, 0.517]
+seed 3 step 250 agg 0.495 by L [0.487, 0.505, 0.504, 0.508, 0.496]
+seed 4 step 150 agg 0.499 by L [0.496, 0.499, 0.505, 0.508, 0.5]
+seeds with L=0 error >=0.15: 5
+== Prediction 2/3: first eval with aggregate accuracy >=0.99 (error<=0.01)
+bit 3 seed 0 step 4350 agg 0.0049 by L [0.0028, 0.0033, 0.0094, 0.0215] ratio Lmax/L0 7.7
+bit 3 seed 1 step 1600 agg 0.006 by L [0.0036, 0.0034, 0.0143, 0.0206] ratio Lmax/L0 5.7
+bit 3 seed 2 step 2500 agg 0.0074 by L [0.0002, 0.008, 0.0249, 0.035] ratio Lmax/L0 215.5
+bit 3 seed 3 step 2050 agg 0.0052 by L [0.0031, 0.0026, 0.0022, 0.0399] ratio Lmax/L0 12.8
+bit 3 seed 4 step 4450 agg 0.0053 by L [0.0049, 0.0072, 0.0002, 0.0107] ratio Lmax/L0 2.2
+bit 3 median ratio 7.680695952801472 n>=3: 4 n>=2: 5
+bit 4 seed 0 step 4600 agg 0.0084 by L [0.0044, 0.0062, 0.0136, 0.0143, 0.0631] ratio Lmax/L0 14.5
+bit 4 seed 1 step 3950 agg 0.0074 by L [0.0058, 0.0033, 0.0037, 0.0111, 0.0732] ratio Lmax/L0 12.7
+bit 4 seed 2 step 900 agg 0.0091 by L [0.0019, 0.0007, 0.001, 0.0193, 0.2023] ratio Lmax/L0 107.0
+bit 4 seed 3 step 2450 agg 0.0088 by L [0.0052, 0.002, 0.0039, 0.0219, 0.1162] ratio Lmax/L0 22.3
+bit 4 seed 4 step 2550 agg 0.0075 by L [0.0047, 0.0027, 0.005, 0.0094, 0.0993] ratio Lmax/L0 21.0
+bit 4 median ratio 21.016535961819795 n>=3: 5 n>=2: 5
+bit 5 seed 0 step 1950 agg 0.0099 by L [0.011, 0.0012, 0.0029, 0.0204, 0.0245, 0.099] ratio Lmax/L0 9.0
+bit 5 seed 1 step 3500 agg 0.0096 by L [0.0081, 0.0036, 0.0022, 0.0183, 0.0641, 0.0646] ratio Lmax/L0 8.0
+bit 5 seed 2 step 1950 agg 0.0099 by L [0.0073, 0.0006, 0.0007, 0.01, 0.0873, 0.1568] ratio Lmax/L0 21.5
+bit 5 seed 3 step 2450 agg 0.0088 by L [0.0057, 0.0012, 0.0017, 0.0142, 0.0385, 0.2112] ratio Lmax/L0 37.1
+bit 5 seed 4 step 3000 agg 0.0091 by L [0.0059, 0.0017, 0.0022, 0.01, 0.0499, 0.2055] ratio Lmax/L0 34.7
+bit 5 median ratio 21.495439954399547 n>=3: 5 n>=2: 5
+bit 6 seed 0 step 1650 agg 0.007 by L [0.0091, 0.0004, 0.0005, 0.0005, 0.021, 0.0347, 0.1333] ratio Lmax/L0 14.7
+bit 6 seed 1 step 1950 agg 0.0074 by L [0.0029, 0.0025, 0.0058, 0.0117, 0.033, 0.0939, 0.1743] ratio Lmax/L0 60.6
+bit 6 seed 2 step 1250 agg 0.0081 by L [0.006, 0.0001, 0.0, 0.005, 0.0192, 0.1218, 0.2846] ratio Lmax/L0 47.8
+bit 6 seed 3 step 1300 agg 0.0079 by L [0.0068, 0.0002, 0.0015, 0.0029, 0.012, 0.1211, 0.25] ratio Lmax/L0 37.0
+bit 6 seed 4 step 1800 agg 0.01 by L [0.0097, 0.0007, 0.0017, 0.0194, 0.0441, 0.0631, 0.1383] ratio Lmax/L0 14.3
+bit 6 median ratio 36.957589285714285 n>=3: 5 n>=2: 5
+== POST HOC (not predicted): bit 4 at fixed steps, aggregate error and error by L=0..4
+step 300 seed 0 agg 0.495 [0.495, 0.493, 0.498, 0.501, 0.49]
+step 300 seed 1 agg 0.498 [0.493, 0.499, 0.508, 0.504, 0.522]
+step 300 seed 2 agg 0.388 [0.251, 0.524, 0.568, 0.569, 0.571]
+step 300 seed 3 agg 0.499 [0.493, 0.505, 0.501, 0.511, 0.509]
+step 300 seed 4 agg 0.501 [0.489, 0.513, 0.512, 0.514, 0.517]
+step 500 seed 0 agg 0.492 [0.493, 0.492, 0.495, 0.482, 0.495]
+step 500 seed 1 agg 0.501 [0.493, 0.509, 0.5, 0.534, 0.498]
+step 500 seed 2 agg 0.351 [0.207, 0.516, 0.519, 0.492, 0.534]
+step 500 seed 3 agg 0.499 [0.491, 0.508, 0.497, 0.517, 0.53]
+step 500 seed 4 agg 0.497 [0.493, 0.5, 0.501, 0.502, 0.525]
+step 1000 seed 0 agg 0.491 [0.45, 0.514, 0.556, 0.569, 0.581]
+step 1000 seed 1 agg 0.487 [0.468, 0.503, 0.508, 0.522, 0.521]
+step 1000 seed 2 agg 0.004 [0.001, 0.0, 0.0, 0.011, 0.096]
+step 1000 seed 3 agg 0.46 [0.411, 0.499, 0.515, 0.557, 0.587]
+step 1000 seed 4 agg 0.401 [0.274, 0.521, 0.543, 0.594, 0.623]
+step 1500 seed 0 agg 0.486 [0.444, 0.511, 0.549, 0.562, 0.613]
+step 1500 seed 1 agg 0.504 [0.508, 0.504, 0.497, 0.474, 0.516]
+step 1500 seed 2 agg 0.001 [0.002, 0.0, 0.0, 0.0, 0.013]
+step 1500 seed 3 agg 0.215 [0.145, 0.257, 0.289, 0.361, 0.49]
+step 1500 seed 4 agg 0.251 [0.175, 0.305, 0.305, 0.403, 0.591]

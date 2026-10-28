@@ -1,0 +1,4 @@
+seed=100 random acc=1.0000 min bit 1.0000 (544s)
+seed=101 random acc=1.0000 min bit 1.0000 (680s)
+seed=102 random acc=1.0000 min bit 1.0000 (348s)
+done

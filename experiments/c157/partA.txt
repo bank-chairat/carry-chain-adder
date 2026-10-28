@@ -1,0 +1,51 @@
+Check: C-08 coefficient of d (bits 4-8, bit effects)
+random 0.87 0.82 0.74 0.67 0.86
+stratified 0.30 0.36 0.37 0.21 0.21
+
+Part A: stratified arm, pooled over seeds 30-34: per bit, own d: training count (summed over seeds), held-out n, errors, error rate
+bit 5
+  d=0: train  5611  heldout  49777  errors  208  rate 0.0042
+  d=1: train  2480  heldout  25173  errors  158  rate 0.0063
+  d=2: train  1607  heldout  12549  errors  258  rate 0.0206
+  d=3: train  1679  heldout   6242  errors  196  rate 0.0314
+  d=4: train  1868  heldout   3082  errors   47  rate 0.0152
+  d=5: train  3135  heldout   3177  errors    0  rate 0.0000
+bit 6
+  d=0: train  6038  heldout  49877  errors  271  rate 0.0054
+  d=1: train  2387  heldout  24877  errors  257  rate 0.0103
+  d=2: train  1347  heldout  12703  errors  286  rate 0.0225
+  d=3: train  1191  heldout   6295  errors  193  rate 0.0307
+  d=4: train  1371  heldout   3115  errors   93  rate 0.0299
+  d=5: train  1568  heldout   1518  errors   26  rate 0.0171
+  d=6: train  2478  heldout   1615  errors    0  rate 0.0000
+  A1 bit 6: rarest-count d = 3 rate 0.0307; longest d = 6 rate 0.0000 -> longest higher: False
+bit 7
+  d=0: train  6916  heldout  49919  errors   47  rate 0.0009
+  d=1: train  2489  heldout  25033  errors   10  rate 0.0004
+  d=2: train  1135  heldout  12439  errors   45  rate 0.0036
+  d=3: train   892  heldout   6272  errors   32  rate 0.0051
+  d=4: train   877  heldout   3186  errors   13  rate 0.0041
+  d=5: train  1071  heldout   1582  errors    5  rate 0.0032
+  d=6: train  1266  heldout    747  errors    0  rate 0.0000
+  d=7: train  1734  heldout    822  errors    0  rate 0.0000
+  A1 bit 7: rarest-count d = 4 rate 0.0041; longest d = 7 rate 0.0000 -> longest higher: False
+bit 8
+  d=0: train  7927  heldout  50057  errors    7  rate 0.0001
+  d=1: train  3040  heldout  24889  errors    2  rate 0.0001
+  d=2: train  1176  heldout  12456  errors   10  rate 0.0008
+  d=3: train   631  heldout   6263  errors    4  rate 0.0006
+  d=4: train   550  heldout   3122  errors    3  rate 0.0010
+  d=5: train   584  heldout   1606  errors    1  rate 0.0006
+  d=6: train   725  heldout    801  errors    1  rate 0.0012
+  d=7: train   897  heldout    376  errors    0  rate 0.0000
+  d=8: train   850  heldout    430  errors    0  rate 0.0000
+  A1 bit 8: rarest-count d = 4 rate 0.0010; longest d = 8 rate 0.0000 -> longest higher: False
+A1 hits: 0 of 3 (need 2)
+
+A2: per seed, coefficient of d with bit effects (bits 5-8) and log training count of the (bit, d) cell
+seed 30: d coef without count 0.315; with log count: d 0.110, log count -0.796; errors 458
+seed 31: d coef without count 0.354; with log count: d 0.181, log count -0.788; errors 320
+seed 32: d coef without count 0.372; with log count: d 0.178, log count -0.938; errors 666
+seed 33: d coef without count 0.208; with log count: d -0.144, log count -1.021; errors 231
+seed 34: d coef without count 0.206; with log count: d -0.043, log count -0.817; errors 498
+A2 positive in 3 of 5 (need 4)

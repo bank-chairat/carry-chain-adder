@@ -1,0 +1,22 @@
+runs with onset before confirmation: 20 of 20
+  s 40 T 2250 t_on 375 T_hat 2232
+  s 41 T 2150 t_on 650 T_hat 2928
+  s 42 T 3950 t_on 800 T_hat 3307
+  s 43 T 5750 t_on 1075 T_hat 4003
+  s 44 T 1800 t_on 325 T_hat 2105
+  s 45 T 1900 t_on 225 T_hat 1852
+  s 46 T 5300 t_on 1750 T_hat 5710
+  s 47 T 1650 t_on 150 T_hat 1662
+  s 48 T 4850 t_on 1025 T_hat 3876
+  s 49 T 2000 t_on 800 T_hat 3307
+  s 50 T 4650 t_on 1525 T_hat 5141
+  s 51 T 1450 t_on 225 T_hat 1852
+  s 52 T 2350 t_on 600 T_hat 2801
+  s 53 T 4550 t_on 1025 T_hat 3876
+  s 54 T 3050 t_on 850 T_hat 3434
+  s 55 T 5000 t_on 1025 T_hat 3876
+  s 56 T 3050 t_on 1025 T_hat 3876
+  s 57 T 3250 t_on 1025 T_hat 3876
+  s 58 T 4050 t_on 1275 T_hat 4509
+  s 59 T 2050 t_on 450 T_hat 2422
+median |ln(T_hat/T)| 0.17, max 0.50, Spearman 0.90; constant model (median of C-83 times 2,900): median |ln| 0.40

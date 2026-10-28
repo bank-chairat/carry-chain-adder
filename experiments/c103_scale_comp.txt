@@ -1,0 +1,2 @@
+step 100 max |logit diff| compensated vs ref 0.000e+00   uncompensated vs ref 3.865e+00
+step 300 max |logit diff| compensated vs ref 0.000e+00   uncompensated vs ref 1.239e+01

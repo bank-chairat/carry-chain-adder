@@ -1,0 +1,7 @@
+n=3 add done
+n=3 xor done
+n=4 add done
+n=4 xor done
+n=5 add done
+n=5 xor done
+done

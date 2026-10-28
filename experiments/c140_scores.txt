@@ -1,0 +1,3 @@
+share s (steps 25-500): median 0.162 range 0.125-0.244; implied r median 5.2
+LAW: median |ln(T_hat/T)| 0.39; Spearman(T_hat, T) 0.45; median T_hat 3686 vs median T 3000
+Spearman(share 25-500, T) -0.52; Spearman(share steps 25-100 only, T) 0.03

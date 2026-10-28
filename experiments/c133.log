@@ -1,0 +1,13 @@
+/home/claude/carry_chain/c133_attribution.py:30: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  np.savez(f"{OUT}/grad_s{s}.npz", gW=gW.numpy(), gb=gb.numpy(), J=float(J))
+38 J(step 125) = 0.2157 |grad| W1 1.825e+00 b1 5.016e-01
+23 J(step 125) = 0.0673 |grad| W1 2.915e+00 b1 8.645e-01
+28 J(step 125) = 0.1770 |grad| W1 1.481e+00 b1 2.716e-01
+35 J(step 125) = 0.0019 |grad| W1 2.041e-01 b1 4.330e-02
+5 J(step 125) = -0.0004 |grad| W1 1.411e-01 b1 4.786e-02
+37 J(step 125) = -0.0058 |grad| W1 1.278e-01 b1 2.807e-02
+36 J(step 125) = -0.0006 |grad| W1 2.016e-01 b1 5.714e-02
+10 J(step 125) = 0.0009 |grad| W1 2.227e-01 b1 5.579e-02
+25 J(step 125) = 0.0006 |grad| W1 2.330e-01 b1 6.208e-02
+24 J(step 125) = -0.0042 |grad| W1 2.245e-01 b1 5.972e-02

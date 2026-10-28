@@ -1,0 +1,10 @@
+eq (2) matches true carry spin for i=1..8: True
+E[H_i] = 2^-i: True
+F_8 = H_8: True | F_i = Q_i H_i for i<8: True
+E[F_8 F_i] = -2^(i-8) for i<8: True | E[F_i F_j]=0 for i!=j<8: True
+eq (5) E[F_i Q_i U_(i-1)] = 1/2 for i=1..7: True
+bit 2: their closed forms for W_d match the exact spectrum: True | W_3 = 0.6250000, (2/3)(1-4^-i) = 0.6250000
+bit 4: their closed forms for W_d match the exact spectrum: True | W_3 = 0.6640625, (2/3)(1-4^-i) = 0.6640625
+bit 7: their closed forms for W_d match the exact spectrum: True | W_3 = 0.6666260, (2/3)(1-4^-i) = 0.6666260
+toy Adam example: solo L1 = 0.4999800002, joint L1 = 0.5000000000
+composition toy: passage time 9.87, bounds 9.21 to 17.12

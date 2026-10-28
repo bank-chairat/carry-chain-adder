@@ -1,0 +1,10 @@
+38 J 0.2157 share of W1 grad^2 on positions 0-4: 0.56 | by position 0..7: 0.16 0.04 0.09 0.10 0.19 0.09 0.06 0.28 | bias share 0.07 | units participating (PR of 128) 63.0
+23 J 0.0673 share of W1 grad^2 on positions 0-4: 0.67 | by position 0..7: 0.35 0.07 0.11 0.05 0.09 0.05 0.09 0.18 | bias share 0.08 | units participating (PR of 128) 59.0
+28 J 0.1770 share of W1 grad^2 on positions 0-4: 0.40 | by position 0..7: 0.11 0.06 0.04 0.07 0.12 0.09 0.14 0.37 | bias share 0.03 | units participating (PR of 128) 19.3
+35 J 0.0019 share of W1 grad^2 on positions 0-4: 0.56 | by position 0..7: 0.21 0.08 0.05 0.11 0.10 0.08 0.08 0.28 | bias share 0.04 | units participating (PR of 128) 4.7
+5 J -0.0004 share of W1 grad^2 on positions 0-4: 0.59 | by position 0..7: 0.15 0.13 0.07 0.18 0.07 0.08 0.11 0.21 | bias share 0.10 | units participating (PR of 128) 9.1
+37 J -0.0058 share of W1 grad^2 on positions 0-4: 0.57 | by position 0..7: 0.33 0.07 0.05 0.07 0.06 0.08 0.09 0.26 | bias share 0.05 | units participating (PR of 128) 24.9
+36 J -0.0006 share of W1 grad^2 on positions 0-4: 0.42 | by position 0..7: 0.14 0.07 0.05 0.05 0.10 0.09 0.12 0.36 | bias share 0.07 | units participating (PR of 128) 57.7
+10 J 0.0009 share of W1 grad^2 on positions 0-4: 0.47 | by position 0..7: 0.18 0.08 0.07 0.07 0.09 0.07 0.14 0.32 | bias share 0.06 | units participating (PR of 128) 46.4
+25 J 0.0006 share of W1 grad^2 on positions 0-4: 0.41 | by position 0..7: 0.12 0.05 0.07 0.09 0.07 0.08 0.17 0.34 | bias share 0.07 | units participating (PR of 128) 58.6
+24 J -0.0042 share of W1 grad^2 on positions 0-4: 0.61 | by position 0..7: 0.19 0.14 0.06 0.07 0.14 0.05 0.13 0.21 | bias share 0.07 | units participating (PR of 128) 56.3

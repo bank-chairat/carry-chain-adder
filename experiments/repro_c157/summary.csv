@@ -1,0 +1,2 @@
+seed,scheme,n_train,test_acc_all_bits_mean,test_acc_min_bit
+30,own6,3276,0.99365,0.97175

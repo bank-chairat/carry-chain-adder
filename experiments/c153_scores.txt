@@ -1,0 +1,6 @@
+block [1750, 1850, 350, 1250, 1300]
+centered_noise [2600, 2250, 350, 2150, 1650]
+frozen_mean [-1, -1, -1, -1, -1]
+frozen_other [-1, -1, -1, -1, -1]
+joint [-1, 3450, 500, 1950, 2050]
+P1 block within 100 of C-104: 5 /5 | P2 frozen_mean slower than centered: 5 /5, censored or >=2x: 5 /5 | P3 centered within 1.5x of block: 4 /5

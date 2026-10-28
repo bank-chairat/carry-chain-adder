@@ -1,0 +1,4 @@
+lr3e-4  T(r=1) [400, 450, 400, 450, 550] T(r=2) [550, 500, 450, 500, 650] T(r=4) [1500, 1000, 850, 2000, 2700] | M(2) 1.11 M(4) 3.33 | s 0.193 r 4.2 -> predicted ratio 18.5, measured 22.9, ln(pred/meas) -0.21
+lr1e-2  T(r=1) [150, 200, 150, 150, 150] T(r=2) [150, 150, 150, 150, 150] T(r=4) [550, 350, 400, 300, 400] | M(2) 1.00 M(4) 2.67 | s 0.206 r 3.9 -> predicted ratio 12.3, measured 3.7, ln(pred/meas) +1.20
+frozen  T(r=1) [250, 200, 300, 250, 150] T(r=2) [250, 350, 400, 250, 300] T(r=4) [450, 1350, 700, 1150, 400] | M(2) 1.20 M(4) 2.80 | s 0.223 r 3.5 -> predicted ratio 10.6, measured 33.0, ln(pred/meas) -1.14
+ordering lr3e-4 > lr1e-2 predicted: True | median |ln(pred/meas)| 1.14

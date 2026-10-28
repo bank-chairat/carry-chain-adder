@@ -1,0 +1,3 @@
+pair ('38', '35') FFF:900 FFS:1300 FSF:4500 FSS:2700 SFF:4950 SFS:2600 SSF:4950 SSS:4500 | main effects (S vs F) cols0-4 +0.75 cols5-7 +0.72 bias -0.22 | R2 0.76
+pair ('23', '5') FFF:1200 FFS:5750 FSF:3200 FSS:3750 SFF:4950 SFS:4600 SSF:4800 SSS:5050 | main effects (S vs F) cols0-4 +0.47 cols5-7 +0.15 bias +0.43 | R2 0.49
+pair ('28', '37') FFF:1200 FFS:2750 FSF:1600 FSS:4950 SFF:4300 SFS:3300 SSF:1950 SSS:6450 | main effects (S vs F) cols0-4 +0.48 cols5-7 +0.19 bias +0.72 | R2 0.66

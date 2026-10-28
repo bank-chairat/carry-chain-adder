@@ -1,0 +1,25 @@
+onset (0 -> corr 0.05)     median    725 range    50- 1750  share of T: 0.20  cov(seg,T)/var(T): 0.28  Spearman with T +0.91
+corr 0.05 -> acc 0.60      median    550 range   175- 2000  share of T: 0.21  cov(seg,T)/var(T): 0.33  Spearman with T +0.92
+acc 0.60 -> 0.90           median    925 range   125- 2825  share of T: 0.31  cov(seg,T)/var(T): 0.30  Spearman with T +0.87
+acc 0.90 -> 0.99 (T)       median    600 range   275- 1400  share of T: 0.22  cov(seg,T)/var(T): 0.10  Spearman with T +0.56
+share s (steps 25-500): median 0.162 range 0.125-0.244; implied r median 5.2
+LAW: median |ln(T_hat/T)| 0.39; Spearman(T_hat, T) 0.45; median T_hat 3686 vs median T 3000
+Spearman(share 25-500, T) -0.52; Spearman(share steps 25-100 only, T) 0.03
+Spearman(pred, meas) 0.76; median |ln(pred/meas)| 0.61
+(1) Spearman(share 25-500, J500) over 460 inits: 0.64; early-share (25-100) vs J500: 0.07
+(3) ridge on Gram features, lambda 100: held-out (s 400-499) Spearman with J500 -0.08; on s 0-59: Spearman(prediction, T) -0.18
+C-139 J500: escaped (>=0.2) 144, none (<0.05) 251, between 65 of 460
+(1) selected tau 0.1 pen 0.01: held-out AUC 0.396; on s 0-59 Spearman(score, T) 0.05
+(2) hand score: held-out AUC 0.527; on s 0-59 Spearman with T -0.04
+s 28 t_on 50 step 150 J 0.236 | top-5 share of positive drops: L1 0.35 L2 0.82 L3 0.16 | top L1 units' init percentiles: pos4-share 68, |a4-b4| 81, activity~1/2 30; moved 45
+s 26 t_on 100 step 200 J 0.151 | top-5 share of positive drops: L1 0.26 L2 0.72 L3 0.23 | top L1 units' init percentiles: pos4-share 65, |a4-b4| 78, activity~1/2 30; moved 50
+s 38 t_on 100 step 200 J 0.287 | top-5 share of positive drops: L1 0.31 L2 0.67 L3 0.20 | top L1 units' init percentiles: pos4-share 96, |a4-b4| 15, activity~1/2 51; moved 91
+s 8 t_on 125 step 225 J 0.229 | top-5 share of positive drops: L1 0.26 L2 0.57 L3 0.22 | top L1 units' init percentiles: pos4-share 91, |a4-b4| 19, activity~1/2 45; moved 47
+s 11 t_on 125 step 225 J 0.233 | top-5 share of positive drops: L1 0.32 L2 0.68 L3 0.18 | top L1 units' init percentiles: pos4-share 72, |a4-b4| 22, activity~1/2 74; moved 36
+s 22 t_on 125 step 225 J 0.251 | top-5 share of positive drops: L1 0.38 L2 0.79 L3 0.18 | top L1 units' init percentiles: pos4-share 76, |a4-b4| 93, activity~1/2 73; moved 59
+C-145 remove_seed median time ratio (arm/baseline) 0.94
+C-145 remove_median median time ratio (arm/baseline) 0.94
+C-145 plant_seed median time ratio (arm/baseline) 0.96
+C-145 random_nudge median time ratio (arm/baseline) 0.98
+layer 2 sgn1: Spearman with J500 (s 100-499) +0.03; escape AUC 0.53; Spearman with T (s 0-59 minus used, n=47) -0.04
+P_Adam                   Spearman with J500 (s 100-499) +0.04; escape AUC 0.52; Spearman with T (s 0-59) -0.30; median value +0.0182

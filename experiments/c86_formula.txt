@@ -1,0 +1,5 @@
+Lambda 237.9 F 213.7
+in-sample pred/meas [0.99, 0.92, 0.98, 1.11, 1.0, 0.9, 1.11, 1.0, 0.9]
+W=64 lr 1e-3: 8992 (measured >= 10000); W=1024 lr 1e-3: 415 (500); lr 3e-4: 886 (800)
+c=2 formula ratio 0.185 measured 0.224
+c=4 formula ratio 0.071 measured 0.306

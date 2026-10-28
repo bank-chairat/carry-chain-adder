@@ -1,0 +1,5 @@
+W128    T [4600, 3950, 1000, 2450, 2550] t_on [825, 1250, 175, 650, 625] D [3775, 2700, 825, 1800, 1925] | medians T 2550 t_on 650 D 1925
+DUP512  T [1400, 1250, 700, 1550, 1100] t_on [375, 650, 75, 600, 475] D [1025, 600, 625, 950, 625] | medians T 1250 t_on 475 D 625
+W512    T [600, 450, 600, 450, 500] t_on [200, 50, 125, 100, 50] D [400, 400, 475, 350, 450] | medians T 500 t_on 100 D 400
+DUP512/W512 ratio of medians: onset 4.75, growth phase 1.56, total 2.50
+W128/DUP512 ratio of medians: onset 1.37, growth phase 3.08, total 2.04

@@ -1,0 +1,24 @@
+C-113a L2 R2S all9 0.676  L3 R2S all9 0.811  L2 R2S init 0.047
+C-111 L2 norm ratio K100 1.27 K1000 2.65
+C-112 N_L2 median g 0.50
+C-112 N_all median g 0.77
+C-112 D_L2 median g 1.00
+C-113b alone median t4 250.0
+C-113b upper4 median t4 1950.0
+C-113b Sthr4 median t4 1300.0
+C-113b Rthr4 median t4 1700.0
+C-114b none median 900.0
+C-114b L12 median 300.0
+C-114b all median 250.0
+C-114b L3 median 5850.0
+C-114b Spearman L2 R2S vs t4 0.87
+C-116 W64 alone 300 conf3 400 joint 10000 conf3/alone 1.33 joint/alone 33.3 joint L2 R2S 0.64
+C-116 W128 alone 250 conf3 300 joint 2550 conf3/alone 1.20 joint/alone 10.2 joint L2 R2S 0.67
+C-116 W512 alone 150 conf3 200 joint 500 conf3/alone 1.33 joint/alone 3.3 joint L2 R2S 0.57
+C-116 frozen alone 200 conf3 200 joint 6600 conf3/alone 1.00 joint/alone 33.0 joint L2 R2S 0.87
+C-116 CS2 alone 300 conf3 350 joint 800 conf3/alone 1.17 joint/alone 2.7 joint L2 R2S 0.29
+C-116 CS4 alone 650 conf3 850 joint 1200 conf3/alone 1.31 joint/alone 1.8 joint L2 R2S 0.08
+C-116 lr3e-4 alone 400 conf3 500 joint 9150 conf3/alone 1.25 joint/alone 22.9 joint L2 R2S 0.59
+C-116 lr1e-2 alone 150 conf3 150 joint 550 conf3/alone 1.00 joint/alone 3.7 joint L2 R2S 0.51
+C-119 single replacements [1300, 4500, 4950, 5750, 3200, 4950, 2750, 1600, 4300] at least 2x slower: 7 of 9
+C-117 Spearman L2pr_250 vs time 0.03, L2R2S_250 -0.04

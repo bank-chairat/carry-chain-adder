@@ -1,0 +1,2 @@
+held-out inits 50 Spearman(R47, T) = 0.26 (p = 0.071); R47 range 0.94-1.08
+all 60: Spearman 0.17

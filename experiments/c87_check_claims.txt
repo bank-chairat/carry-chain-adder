@@ -1,0 +1,6 @@
+S == P*C on all 65536 pairs: True
+P(c4=1) = 0.46875 (15/32 = 0.46875)
+E[C] = 0.06250 (1/16 = 0.06250); E[S P] = 0.06250; E[P P] = 1.0
+E[S P U3] with U3 = (-1)^a3: 0.50000 ; with (-1)^b3: 0.50000
+E[S U3] (without P): 0.00000 ; E[S a4-char] etc: E[S (-1)^a4]: 0.00000
+g1.g2 = 0.0 | solo step [1. 1.] joint step [ 1. -1.] | first-order change of loss 1: solo -0.60 joint 0.00
